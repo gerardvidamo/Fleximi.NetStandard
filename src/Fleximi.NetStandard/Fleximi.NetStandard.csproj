@@ -7,6 +7,7 @@
     <AssemblyName>Fleximi.NetStandard</AssemblyName>
     <RootNamespace>Fleximi.NetStandard</RootNamespace>
     <PackageTags>Crystal Reports;crystal-reports;reports</PackageTags>
+    <PackageIconUrl>https://raw.githubusercontent.com/gerardvidamo/Fleximi.NetStandard/master/resources/fleximi.png</PackageIconUrl>
     <PackageProjectUrl>https://github.com/gerardvidamo/Fleximi.NetStandard</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>git://github.com/gerardvidamo/Fleximi.NetStandard</RepositoryUrl>
