@@ -14,8 +14,9 @@ namespace Fleximi.NetStandard
         private readonly CrystalReportAuthentication _authentication;
         private ConnectionInfo _connectionInfo;
 
-        public CrystalReportViewer (CrystalReportAuthentication authentication) {
+        public CrystalReportViewer (CrystalReportAuthentication authentication, ConnectionInfo connectionInfo) {
             _authentication = authentication;
+            _connectionInfo = connectionInfo;
             _connectionInfo.UserID = authentication.UserId;
             _connectionInfo.Password = authentication.Password;
             _connectionInfo.DatabaseName = authentication.DatabaseName;
